@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+
+<body>
+  <form class="" action="index3.html" method="post">
+    <p>Veuillez entrer vos coordonnées</p>
+    <div class="lastName">
+      <label for="lastName" >Nom :</label>
+      <input type="text" placeholder="Nom" id="lastName" ><span id="errorLastName">Vous avez du vous tromper</span>
+    </div>
+    <div class="firstName">
+      <label for="firstName" >Prénom :</label>
+      <input type="text" placeholder="Prénom" id="firstName" ><span id="errorFirstName">Vous avez du vous tromper</span>
+    </div>
+    <div class="dateOfBirth">
+      <label for="dateOfBirth" >Date de naissance :</label>
+      <input type="date" id="dateOfBirth" required><span id="errorDateOfBirth">Vous avez du vous tromper</span>
+    </div>
+    <div class="cityOfBirth">
+      <label for="cityOfBirth" >Ville de naissance :</label>
+      <input type="text" id="cityOfBirth" placeholder="Ville de naissance" ><span id="errorCityOfBirth">Vous avez du vous tromper</span>
+    </div>
+    <div class="work">
+      <label for="work" >Emploi :</label>
+      <input type="text" id="work" placeholder="Emploi" ><span id="errorWork">Vous avez du vous tromper</span>
+    </div>
+    <div class="business">
+      <label for="business" >Entreprise :</label>
+      <input type="text" id="business" placeholder="Entreprise" ><span id="errorBusiness">Vous avez du vous tromper</span>
+    </div>
+    <input id="button" type="button" name="button" value="Send !">
+  </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
